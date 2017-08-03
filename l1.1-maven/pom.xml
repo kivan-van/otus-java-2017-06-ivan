@@ -6,7 +6,7 @@
 
     <!-- Project Object Model -->
 
-    <name>l1.maven</name>
+    <name>L1.1-maven</name>
     <description>Code example for maven</description>
 
     <developers>
@@ -49,7 +49,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>my-maven-assembly-plugin</id>
+                        <id>maven-assembly-plugin</id>
                         <phase>package</phase>
                         <goals>
                             <goal>single</goal>
