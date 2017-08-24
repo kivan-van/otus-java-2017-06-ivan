@@ -34,7 +34,6 @@ public class Main
     {
         int size = 8000000;
 
-
         Runtime runtime = Runtime.getRuntime();
         System.gc();
         long mem, temp = runtime.totalMemory() - runtime.freeMemory();
@@ -47,9 +46,6 @@ public class Main
         }
 
         mem = runtime.totalMemory() - runtime.freeMemory();
-
-        System.out.println(mem - temp);
-        System.out.println(temp);
 
         System.out.println("Size of " + array[0].getClass().getName() + " = " + ((mem - temp) / size));
         Thread.sleep(1000); //wait for 1 sec
